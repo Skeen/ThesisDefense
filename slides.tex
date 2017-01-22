@@ -1,0 +1,62 @@
+\documentclass[notes]{beamer}
+\mode<presentation>
+{
+  \usetheme{Luebeck}
+  \useoutertheme[subsection=false,footline=authortitle]{miniframes}
+  \usecolortheme{dolphin}
+  \usefonttheme{default}
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+} 
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{mathtools}
+\usepackage{graphicx}
+\graphicspath{ {graphics/} }
+
+\title[Master's Thesis Presentation]{Can web pages be distinguished by their side channel signatures?}
+\author{Emil 'Skeen' Madsen - 20105376}
+\institute{Aarhus University - Computer Science}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+  \includegraphics[scale=0.5]{logo}
+\end{frame}
+
+\section*{Introduction}
+\begin{frame}{Introduction}
+\tableofcontents
+\end{frame}
+
+\section[Paper]{Paper - Website Fingerprinting at Internet Scale}
+\begin{frame}{Presentation of paper}
+\begin{itemize}
+\item What is the idea
+\item What does it do
+\item How does it do it
+\end{itemize}
+\end{frame}
+
+\note{For the presentation, you will have 30 min. I suggest you spend about 15-min on the presentation on the paper and what it does and then put its results in the context of your project – some ideas from these papers are not applicable (they all focus on network-based traffic analysis) – but what can one learn from them w.r.t. browser-based traffic analysis that you performed? Are the classification techniques or defense mechanisms discussed defenses applicable; how does the evaluation
+methodology and results compare to yours, what did you learn from the related work that these papers describe, etc. [full disclosure: I have a cursory familiarity with these papers so I’m looking forward to learning something 😃]}
+
+\section[Project]{Paper versus Project}
+\begin{frame}{Project}
+\begin{itemize}
+\item Item one
+\end{itemize}
+\end{frame}
+
+\section{Missingno}
+\begin{frame}{Missing}
+\begin{itemize}
+\item Item one
+\end{itemize}
+\end{frame}
+
+\end{document}
+
